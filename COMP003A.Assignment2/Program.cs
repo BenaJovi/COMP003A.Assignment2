@@ -22,7 +22,7 @@ namespace COMP003A.Assignment2
             string InputAge = Console.ReadLine();
             int YearBorn = 2023 - Convert.ToInt32(InputAge);
            Console.WriteLine($"Hello, {FirstName} {MiddleName} {LastName}. You were born in {YearBorn}.");
-            
+            */
             Console.WriteLine("*********************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("*********************************");
@@ -35,9 +35,9 @@ namespace COMP003A.Assignment2
             Console.Writeline($"{Integer1} - {Integer2} = {Integer1 - Integer2}");
             Console.Writeline($"{Integer1} * {Integer2} = {Integer1 * Integer2}");
             Console.Writeline($"{Integer1} / {Integer2} = {Integer1 / Integer2}");
-            //Console.Writeline($"{Integer1} % {Integer2} = {Integer1 + Integer2}");
+            Console.Writeline($"{Integer1} % {Integer2} = {Integer1 + Integer2}");
             
-            Console.WriteLine("*********************************");
+            /*Console.WriteLine("*********************************");
             Console.WriteLine("Circle Area & Circumfrence Calculator Section");
             Console.WriteLine("*********************************");
             
