@@ -26,10 +26,13 @@ namespace COMP003A.Assignment2
             Console.WriteLine("*********************************");
             Console.WriteLine("Math Section");
             Console.WriteLine("*********************************");
-            int Integer1;
-            int Integer2;
+        
+            
             string userinput;
             Console.Write("Enter an Integer for Integer1:");
+            string userinput = console.readline();
+            int Integer1= Convert
+            Console.Write("Enter an Integer for Integer2:");
             userinput = Console.ReadLine();
             Console.Writeline($"{Integer1} + {Integer2} = {Integer1 + Integer2}");
             Console.Writeline($"{Integer1} - {Integer2} = {Integer1 - Integer2}");
